@@ -1,0 +1,16 @@
+p{
+    color: green;
+    font-size: 20px;
+    text-align: center
+}
+
+#first-heading{
+    color:brown
+}
+
+.text-darkblue{
+    color: darkblue
+}
+.text-center{
+    text-align: center;
+}
