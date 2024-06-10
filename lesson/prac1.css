@@ -5,7 +5,8 @@ p{
 }
 
 #first-heading{
-    color:brown
+    color:brown;
+    font-family: serif;
 }
 
 .text-darkblue{
@@ -13,4 +14,24 @@ p{
 }
 .text-center{
     text-align: center;
+    font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic";
+    font-style: italic;
+}
+
+.decoration{
+    font-size: 2em;
+    letter-spacing: 1.5em;
+    border-top: dotted 5px plum;
+    border-bottom: double 5px purple;
+    background-color: rgb(209, 245, 233);
+    text-shadow: 2px 2px 3px gray;
+}
+
+.text-orange{
+    color: orange;
+    border-bottom: solid 3px orangered;
+    /* padding-bottom: 0%;
+    line-height: 0px; */
+    display: inline-block;
+
 }
