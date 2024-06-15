@@ -4,9 +4,18 @@ p{
     text-align: center
 }
 
+p::first-letter {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(253, 100, 248)
+}
+
 #first-heading{
     color:brown;
     font-family: serif;
+    position: fixed;
+    top: 0;
+    left: 40%;
 }
 
 .text-darkblue{
@@ -16,6 +25,11 @@ p{
     text-align: center;
     font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic";
     font-style: italic;
+}
+
+h3::before {
+    content: "◇";
+    color: orange;
 }
 
 .decoration{
@@ -33,5 +47,66 @@ p{
     /* padding-bottom: 0%;
     line-height: 0px; */
     display: inline-block;
-
+    padding-bottom: 0%;
+    line-height: 1.2em;
 }
+
+.parent {
+    /* width: 100%; */
+    width: auto;
+    max-width: 800px;
+    height: 200px;
+    position: relative;
+    background-color: yellow;    
+  }
+
+.child {
+    /* width: 50%; */
+    width: auto;
+    max-width: 600px;
+    height: auto;
+    position: absolute;
+    left:50px;
+    background-color: orange;       
+  }
+
+.boxprac {
+    border: solid 5px yellow;   
+    padding: 50px 100px;
+    margin: 20px 500px 20px 100px ;
+  }
+
+
+  #first-div {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    /* padding: 10px; */
+    margin: 10px;
+    background-color: lightblue;
+  }
+  #second-div {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    position: relative;
+    left: 10px;
+    background-color: lightgreen;
+  }
+  #third-div {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    position: relative;
+    top: 20px;
+    background-color: lightgray;
+  }
+  #fourth-div {
+    width: 100px;
+    height: 100px;
+    margin: 40px;
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+  }
