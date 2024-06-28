@@ -110,3 +110,14 @@ h3::before {
     padding: 20px;
     background-color: lightgoldenrodyellow;
   }
+
+  .blink:hover{
+    color:aqua;
+    font-size: large;
+  }
+
+  @media screen and (max-width: 768px) {
+    div {
+        display: block;
+    }
+}
