@@ -10,6 +10,17 @@ p::first-letter {
     color: rgb(253, 100, 248)
 }
 
+div{
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  div {
+      display: block;
+  }
+}
+
+
 #first-heading{
     color:brown;
     font-family: serif;
@@ -116,8 +127,4 @@ h3::before {
     font-size: large;
   }
 
-  @media screen and (max-width: 768px) {
-    div {
-        display: block;
-    }
-}
+  
